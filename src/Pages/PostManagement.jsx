@@ -10,7 +10,7 @@ const PostManagement = () => {
     username: "",
     category: "",
   });
-  const [searchTerm, setSearchTerm] = useState("");
+  // const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const storedToken = localStorage.getItem("token");
@@ -74,9 +74,9 @@ const PostManagement = () => {
       .catch((error) => console.error(error));
   };
 
-  const handleSearch = () => {
-    console.log("Search term:", searchTerm);
-  };
+  // const handleSearch = () => {
+  //   console.log("Search term:", searchTerm);
+  // };
 
   return (
     <div className="container mx-auto mt-8 p-4 ">
