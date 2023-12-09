@@ -1,13 +1,14 @@
-import './App.css';
-import Navbar from './Pages/Navbar';
-import AllRoutes from './Components/AllRoutes';
-function App() {
+import Navbar from "./Pages/Navbar";
+import Mroutes from "./Pages/Mroutes";
+
+
+const App = () => {
   return (
     <div>
-  <Navbar/>
-  <AllRoutes/>
-  </div>
+      <Navbar />
+      <Mroutes />
+    </div>
   );
-}
+};
 
 export default App;
